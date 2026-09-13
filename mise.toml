@@ -20,7 +20,7 @@ quiet = true
 sources = ["src/**/*.rs", "Cargo.toml", "tests/**/*"]
 
 [tools]
-"npm:docsify-cli" = "5.0.0"
+bun = "1.4.2"
 "cargo:cargo-nextest" = "0.9.144"
 "cargo:convco" = "0.7.2"
 dprint = "0.57.4"

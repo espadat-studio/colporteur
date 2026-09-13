@@ -1,4 +1,6 @@
-# License
+---
+title: License
+---
 
 Colporteur is licensed under the [GNU Affero General Public License v3.0 or later](https://www.gnu.org/licenses/agpl-3.0.html).
 

@@ -1,4 +1,6 @@
-# Quick Start
+---
+title: Quick Start
+---
 
 ## 1. Create a config file
 
@@ -47,6 +49,6 @@ Point your feed reader at `/var/lib/colporteur/feeds/ideabrowser.xml`. Run `colp
 
 ## Next steps
 
-- See [Configuration](configuration.md) for the full config reference
-- See [CLI Reference](cli-reference.md) for all commands and flags
-- See [Examples](examples.md) for common setups
+- See [Configuration](/configuration/) for the full config reference
+- See [CLI Reference](/cli-reference/) for all commands and flags
+- See [Examples](/examples/) for common setups

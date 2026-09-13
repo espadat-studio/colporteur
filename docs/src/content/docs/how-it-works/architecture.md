@@ -1,4 +1,6 @@
-# Architecture
+---
+title: Architecture
+---
 
 Colporteur is structured as a pipeline of focused modules, each handling one stage of the email-to-feed conversion.
 

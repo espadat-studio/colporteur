@@ -1,4 +1,6 @@
-# Feed Generation
+---
+title: Feed Generation
+---
 
 Colporteur produces standard [Atom 1.0](https://www.rfc-editor.org/rfc/rfc4287) feeds using the `atom_syndication` crate.
 

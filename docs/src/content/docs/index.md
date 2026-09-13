@@ -1,4 +1,7 @@
-# Colporteur
+---
+title: Colporteur
+description: Convert email newsletters into Atom feeds.
+---
 
 > Convert email newsletters into Atom feeds.
 
@@ -47,4 +50,4 @@ colporteur fetch
 
 The generated feed will be at `/var/lib/colporteur/feeds/weekly-digest.xml`.
 
-See [Installation](getting-started/installation.md) and [Quick Start](getting-started/quick-start.md) for detailed setup instructions.
+See [Installation](/getting-started/installation/) and [Quick Start](/getting-started/quick-start/) for detailed setup instructions.
