@@ -1,33 +1,41 @@
 name: Docs
 
-# Deliberately separate from release.yml: a docs build must never gate
-# release-plz, and a release must never wait on Pages.
+permissions:
+  contents: read
+
+# Deliberately its own workflow rather than a job in master.yml: a broken docs
+# build must never gate release-plz, which triggers on the same push to master.
 on:
   push:
     branches: [master]
-    paths: ["docs/**", "mise.toml", ".github/workflows/docs.yml"]
+    paths:
+      - docs/**
+      - .github/workflows/docs.yml
   pull_request:
     branches: [master]
-    paths: ["docs/**", "mise.toml", ".github/workflows/docs.yml"]
+    paths:
+      - docs/**
+      - .github/workflows/docs.yml
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    concurrency:
-      group: docs-build-${{ github.ref }}
-      cancel-in-progress: true
+    defaults:
+      run:
+        working-directory: docs
     steps:
       - uses: actions/checkout@v7
-      - uses: jdx/mise-action@v4
+      - uses: actions/setup-node@v7
         with:
-          install_args: bun
-      - run: bun install --frozen-lockfile
-        working-directory: docs
-      - run: bun run build
-        working-directory: docs
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: docs/package-lock.json
+      # The theme is a `github:` dependency. npm resolves it over https when no
+      # SSH key is present, so the git+ssh URL in the lockfile is fine here.
+      - run: npm ci
+      - run: npm run build
+      # `path` is workspace-relative; defaults.working-directory only covers `run`.
       - uses: actions/upload-pages-artifact@v5
         if: github.event_name != 'pull_request'
         with:
@@ -40,13 +48,12 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    # Never cancelled: a half-replaced Pages deployment is worse than a slow one.
     concurrency:
       group: pages
       cancel-in-progress: false
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - id: deployment
+      - id: deploy
         uses: actions/deploy-pages@v5
