@@ -1,4 +1,6 @@
-# Examples
+---
+title: Examples
+---
 
 ## Single account, multiple feeds
 

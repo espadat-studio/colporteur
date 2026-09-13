@@ -1,4 +1,6 @@
-# Configuration
+---
+title: Configuration
+---
 
 Colporteur reads its config from `~/.config/colporteur/config.toml`.
 

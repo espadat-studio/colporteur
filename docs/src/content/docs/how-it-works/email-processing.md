@@ -1,4 +1,6 @@
-# Email Processing
+---
+title: Email Processing
+---
 
 Colporteur processes emails in two stages: parsing the raw MIME message, then sanitizing the HTML body for safe feed consumption.
 

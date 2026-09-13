@@ -1,0 +1,52 @@
+name: Docs
+
+# Deliberately separate from release.yml: a docs build must never gate
+# release-plz, and a release must never wait on Pages.
+on:
+  push:
+    branches: [master]
+    paths: ["docs/**", "mise.toml", ".github/workflows/docs.yml"]
+  pull_request:
+    branches: [master]
+    paths: ["docs/**", "mise.toml", ".github/workflows/docs.yml"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    concurrency:
+      group: docs-build-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+        with:
+          install_args: bun
+      - run: bun install --frozen-lockfile
+        working-directory: docs
+      - run: bun run build
+        working-directory: docs
+      - uses: actions/upload-pages-artifact@v5
+        if: github.event_name != 'pull_request'
+        with:
+          path: docs/dist
+
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    # Never cancelled: a half-replaced Pages deployment is worse than a slow one.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

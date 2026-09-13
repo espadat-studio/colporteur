@@ -46,11 +46,11 @@ colporteur list    # show feed sync state
 
 Full documentation available at [colporteur.espadat.com](https://colporteur.espadat.com):
 
-- [Installation](https://colporteur.espadat.com/#/getting-started/installation) - Detailed setup guide
-- [Quick Start](https://colporteur.espadat.com/#/getting-started/quick-start) - Step-by-step walkthrough
-- [CLI Reference](https://colporteur.espadat.com/#/cli-reference) - All commands documented
-- [Configuration](https://colporteur.espadat.com/#/configuration) - Config file format and options
-- [How It Works](https://colporteur.espadat.com/#/how-it-works/email-processing) - Email processing pipeline
+- [Installation](https://colporteur.espadat.com/getting-started/installation/) - Detailed setup guide
+- [Quick Start](https://colporteur.espadat.com/getting-started/quick-start/) - Step-by-step walkthrough
+- [CLI Reference](https://colporteur.espadat.com/cli-reference/) - All commands documented
+- [Configuration](https://colporteur.espadat.com/configuration/) - Config file format and options
+- [How It Works](https://colporteur.espadat.com/how-it-works/email-processing/) - Email processing pipeline
 
 ## Requirements
 
