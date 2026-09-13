@@ -5,21 +5,20 @@ name: Docs
 on:
   push:
     branches: [master]
-    paths: ["docs/**", ".github/workflows/docs.yml"]
+    paths: ["docs/**", "mise.toml", ".github/workflows/docs.yml"]
   pull_request:
     branches: [master]
-    paths: ["docs/**", ".github/workflows/docs.yml"]
+    paths: ["docs/**", "mise.toml", ".github/workflows/docs.yml"]
   workflow_dispatch:
-
-concurrency:
-  group: docs-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    concurrency:
+      group: docs-build-${{ github.ref }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v7
       - uses: jdx/mise-action@v4
@@ -41,6 +40,10 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    # Never cancelled: a half-replaced Pages deployment is worse than a slow one.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
