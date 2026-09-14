@@ -4,7 +4,7 @@ title: Installation
 
 ## Pre-compiled binaries
 
-Download a binary for your platform from the [latest release](https://github.com/sripwoud/colporteur/releases/latest). Binaries are available for Linux (x86_64, aarch64), macOS (Intel, Apple Silicon), and Windows (x64).
+Download a binary for your platform from the [latest release](https://github.com/espadat-studio/colporteur/releases/latest). Binaries are available for Linux (x86_64, aarch64), macOS (Intel, Apple Silicon), and Windows (x64).
 
 Extract it somewhere on your `PATH`, e.g. `~/.local/bin`.
 
@@ -17,7 +17,7 @@ cargo install colporteur
 ## From source
 
 ```bash
-git clone https://github.com/sripwoud/colporteur
+git clone https://github.com/espadat-studio/colporteur
 cd colporteur
 cargo build --release
 ```
