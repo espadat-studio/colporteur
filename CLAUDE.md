@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-Issues live as GitHub issues at `sripwoud/colporteur`. Use the `gh` CLI for all operations. See `meta/agents/issue-tracker.md`.
+Issues live as GitHub issues at `espadat-studio/colporteur`. Use the `gh` CLI for all operations. See `meta/agents/issue-tracker.md`.
 
 ### Triage labels
 

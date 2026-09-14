@@ -22,7 +22,7 @@ Colporteur connects to IMAP mailboxes, fetches emails from configured senders, s
 
 ## Quick Start
 
-Install colporteur from a [pre-compiled binary](https://github.com/sripwoud/colporteur/releases/latest) or via cargo:
+Install colporteur from a [pre-compiled binary](https://github.com/espadat-studio/colporteur/releases/latest) or via cargo:
 
 ```bash
 cargo install colporteur
@@ -76,4 +76,4 @@ mise run      # run tasks interactively
 ## Community
 
 - [Documentation](https://colporteur.espadat.com)
-- [Report Issues](https://github.com/sripwoud/colporteur/issues)
+- [Report Issues](https://github.com/espadat-studio/colporteur/issues)

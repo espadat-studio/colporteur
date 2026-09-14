@@ -1,6 +1,6 @@
 # Issue tracker: GitHub
 
-Issues and PRDs for this repo live as GitHub issues at `sripwoud/colporteur`. Use the `gh` CLI for all operations.
+Issues and PRDs for this repo live as GitHub issues at `espadat-studio/colporteur`. Use the `gh` CLI for all operations.
 
 ## Conventions
 
