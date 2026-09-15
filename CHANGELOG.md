@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.5](https://github.com/espadat-studio/colporteur/compare/v0.6.4...v0.6.5) - 2026-09-15
+
+### Added
+
+- *(docs)* serve a robots.txt that names the sitemap ([#90](https://github.com/espadat-studio/colporteur/pull/90))
+
+### Other
+
+- *(deps)* update dependency @astrojs/starlight to v0.42.1 ([#89](https://github.com/espadat-studio/colporteur/pull/89))
+- *(deps)* update taiki-e/install-action digest to 2ab4414 ([#88](https://github.com/espadat-studio/colporteur/pull/88))
+
 ## [0.6.4](https://github.com/espadat-studio/colporteur/compare/v0.6.3...v0.6.4) - 2026-09-14
 
 ### Fixed
