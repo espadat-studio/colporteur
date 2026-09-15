@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.4](https://github.com/espadat-studio/colporteur/compare/v0.6.3...v0.6.4) - 2026-09-14
+
+### Fixed
+
+- *(hooks)* bump hk pkl schema to 2.0.0
+- *(ci)* stop persisting git credentials in jobs that never push ([#81](https://github.com/espadat-studio/colporteur/pull/81))
+
+### Other
+
+- *(deps)* update rust crate clap to v4.6.7 ([#87](https://github.com/espadat-studio/colporteur/pull/87))
+- point org references at espadat-studio ([#86](https://github.com/espadat-studio/colporteur/pull/86))
+- *(renovate)* track hk pkl schema alongside the binary
+- *(deps)* update node.js to v24 ([#85](https://github.com/espadat-studio/colporteur/pull/85))
+- *(actions)* comment the auth action pin with its real tag
+- *(deps)* update dependency hk to v2 ([#83](https://github.com/espadat-studio/colporteur/pull/83))
+- *(deps)* update node.js to v22.23.2 ([#82](https://github.com/espadat-studio/colporteur/pull/82))
+- *(actions)* pin every action to a full commit sha ([#80](https://github.com/espadat-studio/colporteur/pull/80))
+- *(docs)* align the docs build with auberge and dublette ([#78](https://github.com/espadat-studio/colporteur/pull/78))
+- migrate documentation site to astro starlight ([#77](https://github.com/espadat-studio/colporteur/pull/77))
+- *(release)* publish to crates.io via trusted publishing ([#75](https://github.com/espadat-studio/colporteur/pull/75))
+- *(docs)* move docs site to colporteur.espadat.com ([#74](https://github.com/espadat-studio/colporteur/pull/74))
+
 ## [0.6.3](https://github.com/sripwoud/colporteur/compare/v0.6.2...v0.6.3) - 2026-09-11
 
 ### Other
