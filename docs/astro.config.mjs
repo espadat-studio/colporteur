@@ -6,7 +6,8 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "colporteur",
-      description: "Convert email newsletters into Atom feeds.",
+      description:
+        "Turn email newsletters into Atom feeds straight from your IMAP inbox. Strips trackers, needs no forwarding address or third-party service.",
       logo: { src: "./src/assets/mark.svg", alt: "Espadat" },
       head: [{ tag: "link", attrs: { rel: "icon", href: "/favicon.ico", sizes: "16x16 32x32" } }],
       customCss: ["@espadat/docs-theme/styles/theme.css"],

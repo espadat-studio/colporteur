@@ -1,11 +1,11 @@
 ---
 title: Colporteur
-description: Convert email newsletters into Atom feeds.
+description: Turn email newsletters into Atom feeds straight from your IMAP inbox. Strips trackers, needs no forwarding address or third-party service.
 ---
 
-> Convert email newsletters into Atom feeds.
+> Read your newsletters in your feed reader, not your inbox.
 
-Colporteur connects to your IMAP mailbox, fetches emails from configured newsletter senders, sanitizes the HTML, and writes Atom XML feed files to disk. Subscribe to your newsletters with any feed reader.
+Colporteur turns newsletters into Atom feeds from the mailbox you already have. It reads the senders you list over IMAP, strips tracking pixels and scripts, and writes Atom files any feed reader can subscribe to. You don't need a forwarding address, and nobody else reads your mail. A colporteur was the pedlar who carried pamphlets from door to door.
 
 ## Features
 
