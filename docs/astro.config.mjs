@@ -37,6 +37,7 @@ export default defineConfig({
           ],
         },
         { label: "Examples", slug: "examples" },
+        { label: "Development", slug: "development" },
         { label: "About", items: [{ slug: "about/license" }] },
       ],
     }),
