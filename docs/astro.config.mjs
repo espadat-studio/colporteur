@@ -1,10 +1,12 @@
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
+import starlightLlmsTxt from "starlight-llms-txt";
 
 export default defineConfig({
   site: "https://colporteur.espadat.com",
   integrations: [
     starlight({
+      plugins: [starlightLlmsTxt()],
       title: "colporteur",
       description:
         "Turn email newsletters into Atom feeds straight from your IMAP inbox. Strips trackers, needs no forwarding address or third-party service.",
