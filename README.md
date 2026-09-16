@@ -7,9 +7,9 @@
   </a>
 </p>
 
-> Convert email newsletters into Atom feeds
+> Read your newsletters in your feed reader, not your inbox.
 
-Colporteur connects to IMAP mailboxes, fetches emails from configured senders, sanitizes the HTML, and writes Atom XML feed files. Subscribe to your newsletters with any feed reader.
+Colporteur turns newsletters into Atom feeds from the mailbox you already have. It reads the senders you list over IMAP, strips tracking pixels and scripts, and writes Atom files any feed reader can subscribe to. You don't need a forwarding address, and nobody else reads your mail. A colporteur was the pedlar who carried pamphlets from door to door.
 
 ## Features
 
@@ -58,20 +58,7 @@ Full documentation available at [colporteur.espadat.com](https://colporteur.espa
 
 ## Develop
 
-| Feature                                        | With                                                                                   | Configuration                                          |
-| ---------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Continuous Integration                         | [GitHub Workflow](https://docs.github.com/en/actions/using-workflows)                  | [.github/workflows](./.github/workflows)               |
-| Conventional Commits                           | [convco](https://github.com/convco/convco)                                             | [.convco](./.convco)                                   |
-| Conventional PR Titles                         | [action-semantic-pull-request](https://github.com/amannn/action-semantic-pull-request) | [semantic-pr.yml](./.github/workflows/semantic-pr.yml) |
-| Documentation                                  | [docsify](https://docsify.js.org/)                                                     | [docs/](./docs)                                        |
-| Formatting                                     | [dprint](https://dprint.dev/)                                                          | [.dprint.jsonc](./.dprint.jsonc)                       |
-| Git Hooks                                      | [hk](https://hk.jdx.dev/)                                                              | [hk.pkl](./hk.pkl)                                     |
-| Tasks Runner, Environment & Runtime Management | [mise](https://mise.dev/)                                                              | [mise.toml](./mise.toml)                               |
-
-```bash
-./setup       # install mise and setup repository
-mise run      # run tasks interactively
-```
+`./setup` installs mise and the git hooks, `mise run` lists the tasks. Tooling and configuration: [the development page](https://colporteur.espadat.com/development/).
 
 ## Community
 
