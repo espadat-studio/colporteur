@@ -7,6 +7,8 @@ export default defineConfig({
     starlight({
       title: "colporteur",
       description: "Convert email newsletters into Atom feeds.",
+      logo: { src: "./src/assets/mark.svg", alt: "Espadat" },
+      head: [{ tag: "link", attrs: { rel: "icon", href: "/favicon.ico", sizes: "16x16 32x32" } }],
       customCss: ["@espadat/docs-theme/styles/theme.css"],
       components: {
         Footer: "@espadat/docs-theme/components/footer.astro",
