@@ -21,7 +21,7 @@ sources = ["src/**/*.rs", "Cargo.toml", "tests/**/*"]
 
 [tools]
 node = "24.21.0"
-"cargo:cargo-nextest" = "0.9.145"
+"cargo:cargo-nextest" = "0.9.146"
 "cargo:convco" = "0.7.2"
 dprint = "0.57.4"
 hk = "2.0.1"
