@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.6](https://github.com/espadat-studio/colporteur/compare/v0.6.5...v0.6.6) - 2026-09-21
+
+### Other
+
+- *(deps)* update dependency @astrojs/starlight to v0.42.2 ([#104](https://github.com/espadat-studio/colporteur/pull/104))
+- *(deps)* update all non-major dependencies ([#103](https://github.com/espadat-studio/colporteur/pull/103))
+- *(deps)* update github/codeql-action digest to 1c5b675 ([#100](https://github.com/espadat-studio/colporteur/pull/100))
+- *(deps)* update release-plz/action digest to b8d6b54 ([#101](https://github.com/espadat-studio/colporteur/pull/101))
+- *(deps)* update taiki-e/install-action digest to e88e69e ([#102](https://github.com/espadat-studio/colporteur/pull/102))
+- *(deps)* update dependency cargo:cargo-nextest to v0.9.145 ([#99](https://github.com/espadat-studio/colporteur/pull/99))
+- *(deps)* update dependency astro to v7.3.3 ([#98](https://github.com/espadat-studio/colporteur/pull/98))
+- *(docs)* serve llms.txt so agents can read the docs in one fetch ([#97](https://github.com/espadat-studio/colporteur/pull/97))
+- open with the problem the tool solves, not its mechanism ([#96](https://github.com/espadat-studio/colporteur/pull/96))
+- *(docs)* bump the docs theme to v0.2.0 ([#95](https://github.com/espadat-studio/colporteur/pull/95))
+- add the espadat mark as favicon and site logo ([#93](https://github.com/espadat-studio/colporteur/pull/93))
+- *(deps)* update hk to v2.0.1 ([#92](https://github.com/espadat-studio/colporteur/pull/92))
+
 ## [0.6.5](https://github.com/espadat-studio/colporteur/compare/v0.6.4...v0.6.5) - 2026-09-15
 
 ### Added
