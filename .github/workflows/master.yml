@@ -51,7 +51,7 @@ jobs:
       - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable
         with:
           components: llvm-tools-preview
-      - uses: taiki-e/install-action@e88e69ecdb9658bd172693dcdc2c84e7f0ab6a11 # nextest
+      - uses: taiki-e/install-action@4765db214858792ed289a2b5e543daf93d682a48 # nextest
       - run: cargo nextest run
 
   test:
