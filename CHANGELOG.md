@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.7](https://github.com/espadat-studio/colporteur/compare/v0.6.6...v0.6.7) - 2026-10-05
+
+### Other
+
+- *(deps)* update all non-major dependencies ([#122](https://github.com/espadat-studio/colporteur/pull/122))
+- *(deps)* update jdx/mise-action digest to 2d8d4ca ([#127](https://github.com/espadat-studio/colporteur/pull/127))
+- *(deps)* update hk to v2.5.0 ([#126](https://github.com/espadat-studio/colporteur/pull/126))
+- *(deps)* bump the npm_and_yarn group across 1 directory with 2 updates ([#125](https://github.com/espadat-studio/colporteur/pull/125))
+- *(deps)* update jdx/mise-action digest to 94c60b3 ([#124](https://github.com/espadat-studio/colporteur/pull/124))
+- *(deps)* update taiki-e/install-action digest to c6be25d ([#123](https://github.com/espadat-studio/colporteur/pull/123))
+- *(deps)* update all non-major dependencies ([#120](https://github.com/espadat-studio/colporteur/pull/120))
+- *(deps)* update dtolnay/rust-toolchain digest to 89b1218 ([#121](https://github.com/espadat-studio/colporteur/pull/121))
+- *(deps)* update jdx/mise-action digest to 7a4e45a ([#119](https://github.com/espadat-studio/colporteur/pull/119))
+- *(deps)* update taiki-e/install-action digest to badb8c3 ([#117](https://github.com/espadat-studio/colporteur/pull/117))
+- *(deps)* update dependency dprint to v0.58.0 ([#118](https://github.com/espadat-studio/colporteur/pull/118))
+- *(deps)* update jdx/mise-action action to v5 ([#116](https://github.com/espadat-studio/colporteur/pull/116))
+- *(deps)* update hk to v2.4.0 ([#115](https://github.com/espadat-studio/colporteur/pull/115))
+- *(deps)* update taiki-e/install-action digest to 23d41aa ([#114](https://github.com/espadat-studio/colporteur/pull/114))
+- *(docs)* bump the docs theme to v0.4.0
+- *(deps)* update hk to v2.2.0 ([#113](https://github.com/espadat-studio/colporteur/pull/113))
+- *(deps)* update all non-major dependencies ([#112](https://github.com/espadat-studio/colporteur/pull/112))
+- *(deps)* update github/codeql-action digest to 2892aa5 ([#110](https://github.com/espadat-studio/colporteur/pull/110))
+- *(deps)* update taiki-e/install-action digest to 45fceba ([#111](https://github.com/espadat-studio/colporteur/pull/111))
+- *(deps)* update all non-major dependencies ([#108](https://github.com/espadat-studio/colporteur/pull/108))
+- *(deps)* update taiki-e/install-action digest to 4765db2 ([#107](https://github.com/espadat-studio/colporteur/pull/107))
+- *(deps)* update hk to v2.1.0 ([#109](https://github.com/espadat-studio/colporteur/pull/109))
+- *(deps)* repoint @espadat/docs-theme after history rewrite
+- *(deps)* update dependency cargo:cargo-nextest to v0.9.146 ([#106](https://github.com/espadat-studio/colporteur/pull/106))
+
 ## [0.6.6](https://github.com/espadat-studio/colporteur/compare/v0.6.5...v0.6.6) - 2026-09-21
 
 ### Other
