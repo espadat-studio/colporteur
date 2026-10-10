@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.8](https://github.com/espadat-studio/colporteur/compare/v0.6.7...v0.6.8) - 2026-10-10
+
+### Other
+
+- *(deps)* update taiki-e/install-action digest to b1351b8 ([#147](https://github.com/espadat-studio/colporteur/pull/147))
+- pass client-id to create-github-app-token ([#146](https://github.com/espadat-studio/colporteur/pull/146))
+- *(deps)* update dtolnay/rust-toolchain digest to 686976e ([#143](https://github.com/espadat-studio/colporteur/pull/143))
+- *(deps)* update rust crate toml to v1.1.8 ([#144](https://github.com/espadat-studio/colporteur/pull/144))
+- *(deps)* update dependency @astrojs/starlight to v0.42.6 ([#142](https://github.com/espadat-studio/colporteur/pull/142))
+- *(deps)* update dependency astro to v7.3.8 ([#141](https://github.com/espadat-studio/colporteur/pull/141))
+- *(deps)* update github/codeql-action digest to 24c5418 ([#140](https://github.com/espadat-studio/colporteur/pull/140))
+- *(deps)* update dependency cargo:cargo-nextest to v0.9.148 ([#137](https://github.com/espadat-studio/colporteur/pull/137))
+- *(deps)* bump sharp from 0.35.4 to 0.35.5 in /docs in the npm_and_yarn group across 1 directory ([#138](https://github.com/espadat-studio/colporteur/pull/138))
+- *(deps)* update actions/setup-node digest to 949feb2 ([#136](https://github.com/espadat-studio/colporteur/pull/136))
+- *(deps)* update all non-major dependencies ([#135](https://github.com/espadat-studio/colporteur/pull/135))
+- *(deps)* update dependency dprint to v0.61.0 ([#134](https://github.com/espadat-studio/colporteur/pull/134))
+- *(deps)* update taiki-e/install-action digest to bb0282c ([#132](https://github.com/espadat-studio/colporteur/pull/132))
+- *(deps)* bump source-map-js from 1.2.1 to 1.2.2 in /docs in the npm_and_yarn group across 1 directory ([#131](https://github.com/espadat-studio/colporteur/pull/131))
+- *(deps)* update dependency astro to v7.3.6 ([#130](https://github.com/espadat-studio/colporteur/pull/130))
+- *(deps)* update taiki-e/install-action digest to db63522 ([#129](https://github.com/espadat-studio/colporteur/pull/129))
+
 ## [0.6.7](https://github.com/espadat-studio/colporteur/compare/v0.6.6...v0.6.7) - 2026-10-05
 
 ### Other
