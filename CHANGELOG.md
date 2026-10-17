@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.9](https://github.com/espadat-studio/colporteur/compare/v0.6.8...v0.6.9) - 2026-10-17
+
+### Other
+
+- *(deps)* update taiki-e/install-action digest to 9252097 ([#160](https://github.com/espadat-studio/colporteur/pull/160))
+- *(deps)* update rust crate ammonia to v4.2.4 ([#161](https://github.com/espadat-studio/colporteur/pull/161))
+- *(deps)* update hk to v2.7.0 ([#158](https://github.com/espadat-studio/colporteur/pull/158))
+- *(deps)* update jdx/mise-action digest to 9b200bc ([#159](https://github.com/espadat-studio/colporteur/pull/159))
+- *(deps)* update github/codeql-action digest to 6f2ac81 ([#155](https://github.com/espadat-studio/colporteur/pull/155))
+- *(deps)* update all non-major dependencies ([#156](https://github.com/espadat-studio/colporteur/pull/156))
+- *(deps)* update dtolnay/rust-toolchain digest to b725eda ([#157](https://github.com/espadat-studio/colporteur/pull/157))
+- *(deps)* update node.js to v24.22.0 ([#154](https://github.com/espadat-studio/colporteur/pull/154))
+- *(deps)* update actions/create-github-app-token digest to 64ab729 ([#152](https://github.com/espadat-studio/colporteur/pull/152))
+- *(deps)* update release-plz/action digest to 8921286 ([#153](https://github.com/espadat-studio/colporteur/pull/153))
+
 ## [0.6.8](https://github.com/espadat-studio/colporteur/compare/v0.6.7...v0.6.8) - 2026-10-12
 
 ### Other
