@@ -20,10 +20,10 @@ quiet = true
 sources = ["src/**/*.rs", "Cargo.toml", "tests/**/*"]
 
 [tools]
-node = "24.22.0"
-"cargo:cargo-nextest" = "0.9.148"
+node = "24.22.1"
+"cargo:cargo-nextest" = "0.9.149"
 "cargo:convco" = "0.7.2"
-dprint = "0.64.0"
+dprint = "0.64.3"
 hk = "2.7.1"
-pkl = "0.32.1"
+pkl = "0.32.2"
 rust = "1.99.1"
