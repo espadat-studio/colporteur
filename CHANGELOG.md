@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.10](https://github.com/espadat-studio/colporteur/compare/v0.6.9...v0.6.10) - 2026-11-02
+
+### Other
+
+- *(deps)* update all dependencies ([#173](https://github.com/espadat-studio/colporteur/pull/173))
+- *(deps)* update hk to v2.11.0 ([#172](https://github.com/espadat-studio/colporteur/pull/172))
+- *(deps)* bump the npm_and_yarn group across 1 directory with 2 updates ([#171](https://github.com/espadat-studio/colporteur/pull/171))
+- *(deps)* update hk to v2.8.1 ([#170](https://github.com/espadat-studio/colporteur/pull/170))
+- *(deps)* update all dependencies ([#169](https://github.com/espadat-studio/colporteur/pull/169))
+- *(renovate)* batch all updates into one weekly pr ([#168](https://github.com/espadat-studio/colporteur/pull/168))
+- *(deps)* update release-plz/action digest to 6caa8d3 ([#167](https://github.com/espadat-studio/colporteur/pull/167))
+- *(deps)* update dependency astro to v7.4.1 ([#166](https://github.com/espadat-studio/colporteur/pull/166))
+- *(deps)* update jdx/mise-action digest to fc42bcc ([#164](https://github.com/espadat-studio/colporteur/pull/164))
+- *(deps)* update hk to v2.7.1 ([#165](https://github.com/espadat-studio/colporteur/pull/165))
+- *(deps)* update dependency dprint to v0.64.0 ([#163](https://github.com/espadat-studio/colporteur/pull/163))
+
 ## [0.6.9](https://github.com/espadat-studio/colporteur/compare/v0.6.8...v0.6.9) - 2026-10-17
 
 ### Other
