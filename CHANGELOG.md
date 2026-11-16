@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.12](https://github.com/espadat-studio/colporteur/compare/v0.6.11...v0.6.12) - 2026-11-16
+
+### Other
+
+- *(deps)* update tooling dependencies ([#180](https://github.com/espadat-studio/colporteur/pull/180))
+- *(deps)* update rust crate ammonia to v4.2.5 ([#179](https://github.com/espadat-studio/colporteur/pull/179))
+
 ## [0.6.11](https://github.com/espadat-studio/colporteur/compare/v0.6.10...v0.6.11) - 2026-11-09
 
 ### Other
