@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.13](https://github.com/espadat-studio/colporteur/compare/v0.6.12...v0.6.13) - 2026-11-23
+
+### Other
+
+- *(deps)* update tooling dependencies ([#182](https://github.com/espadat-studio/colporteur/pull/182))
+- *(deps)* update runtime dependencies ([#183](https://github.com/espadat-studio/colporteur/pull/183))
+
 ## [0.6.12](https://github.com/espadat-studio/colporteur/compare/v0.6.11...v0.6.12) - 2026-11-16
 
 ### Other
